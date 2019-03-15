@@ -1,27 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "fd083ce5a27c290eaf55",
+    "revision": "ec2c8619ddefc3f75d4b",
     "url": "/my-portfolio/static/css/main.30363c77.chunk.css"
   },
   {
-    "revision": "fd083ce5a27c290eaf55",
-    "url": "/my-portfolio/static/js/main.475ec449.chunk.js"
+    "revision": "ec2c8619ddefc3f75d4b",
+    "url": "/my-portfolio/static/js/main.462597fe.chunk.js"
   },
   {
     "revision": "f2d15970f74596a69ca7",
     "url": "/my-portfolio/static/js/runtime~main.674e5ed7.js"
   },
   {
-    "revision": "40942616c88eaf596b2c",
-    "url": "/my-portfolio/static/js/2.1c1e464a.chunk.js"
-  },
-  {
-    "revision": "8262057119c963741b868e0d8dd68dd3",
-    "url": "/my-portfolio/static/media/economica-bold.82620571.ttf"
-  },
-  {
-    "revision": "cf4449c1884598b292630aa9f4007c19",
-    "url": "/my-portfolio/static/media/roboto-condensed.light.cf4449c1.ttf"
+    "revision": "cdf952ed5bab02876368",
+    "url": "/my-portfolio/static/js/2.6f0fb20f.chunk.js"
   },
   {
     "revision": "bf56edc6c7090e92662e37a9b9ed2aea",
@@ -56,11 +48,19 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/david.eb06a318.jpg"
   },
   {
+    "revision": "8262057119c963741b868e0d8dd68dd3",
+    "url": "/my-portfolio/static/media/economica-bold.82620571.ttf"
+  },
+  {
+    "revision": "cf4449c1884598b292630aa9f4007c19",
+    "url": "/my-portfolio/static/media/roboto-condensed.light.cf4449c1.ttf"
+  },
+  {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/my-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "9e97c7e5f7b9b21523f5170886507c7d",
+    "revision": "c892781ed1b965a05fa89596605b1d80",
     "url": "/my-portfolio/index.html"
   }
 ];
