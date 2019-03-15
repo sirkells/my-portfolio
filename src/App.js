@@ -1,10 +1,49 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Projects from "./Projects";
 
 class App extends Component {
+  state = {
+    displayBio: false
+  };
+
+  // use arrow functions to access this
+  toggleBio = () => {
+    this.setState({ displayBio: !this.state.displayBio });
+  };
   render() {
-    return <div>Hello React</div>;
+    // destructuring state to avoid always usimg this.state
+    const { displayBio } = this.state;
+
+    return (
+      <div>
+        <img src={logo} alt="profile" className="profile" />
+        <h1>Hello!</h1>
+        <p>My name is Kelechiiiii </p>
+        {/* <Title /> */}
+        <p>I have great desire to work on innovative and exciting projects</p>
+        {displayBio ? (
+          <div>
+            <p>I live in Siegburg, Germany and i code Everyday</p>
+            <p>I enjoy working with Javascript and Python </p>
+            <p>
+              For Javascript i use React and Vue while for Python i use Django
+              and Flask
+            </p>
+            <button onClick={this.toggleBio}>Show less</button>
+          </div>
+        ) : (
+          <div>
+            <button onClick={this.toggleBio}>Read more</button>
+          </div>
+        )}
+        <hr />
+        <Projects />
+        <hr />
+        {/* <SocialProfiles /> */}
+      </div>
+    );
   }
 }
 
