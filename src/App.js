@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-import "./App.css";
 import Projects from "./Projects";
-
+import SocialProfiles from "./SocialProfiles";
+import profile from "./assets/david.jpg";
+import Title from "./Title";
 class App extends Component {
   state = {
     displayBio: false
@@ -18,10 +19,10 @@ class App extends Component {
 
     return (
       <div>
-        <img src={logo} alt="profile" className="profile" />
+        <img src={profile} alt="profile" className="profile" />
         <h1>Hello!</h1>
         <p>My name is Kelechiiiii </p>
-        {/* <Title /> */}
+        <Title />
         <p>I have great desire to work on innovative and exciting projects</p>
         {displayBio ? (
           <div>
@@ -41,7 +42,7 @@ class App extends Component {
         <hr />
         <Projects />
         <hr />
-        {/* <SocialProfiles /> */}
+        <SocialProfiles />
       </div>
     );
   }
