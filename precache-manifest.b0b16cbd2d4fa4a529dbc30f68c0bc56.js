@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "940aa48a4ba26530170c9ca23001bdce",
+    "revision": "a474832738a4b0b22fb1022cdf8373c5",
     "url": "/my-portfolio/index.html"
   }
 ];
