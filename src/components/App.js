@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
-import profile from "./assets/david.jpg";
+import profile from "../assets/david.jpg";
 import Title from "./Title";
+import Header from "./Header";
+
 class App extends Component {
   state = {
     displayBio: false
@@ -19,9 +20,10 @@ class App extends Component {
 
     return (
       <div>
+        <Header />
         <img src={profile} alt="profile" className="profile" />
         <h1>Hello!</h1>
-        <p>My name is Kelechiiiii </p>
+        <p>My name is Kelechi</p>
         <Title />
         <p>I have great desire to work on innovative and exciting projects</p>
         {displayBio ? (
@@ -32,11 +34,15 @@ class App extends Component {
               For Javascript i use React and Vue while for Python i use Django
               and Flask
             </p>
-            <button onClick={this.toggleBio}>Show less</button>
+            <button className="ui button" onClick={this.toggleBio}>
+              Show less
+            </button>
           </div>
         ) : (
           <div>
-            <button onClick={this.toggleBio}>Read more</button>
+            <button className="ui button" onClick={this.toggleBio}>
+              Read more
+            </button>
           </div>
         )}
         <hr />
