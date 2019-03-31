@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "b62a9d486205c4a25cf9",
-    "url": "/my-portfolio/static/css/main.d9056345.chunk.css"
+    "revision": "3b9986a9fa5cf2a630c3",
+    "url": "/my-portfolio/static/css/main.5c36fa9d.chunk.css"
   },
   {
-    "revision": "b62a9d486205c4a25cf9",
-    "url": "/my-portfolio/static/js/main.a4b3cb05.chunk.js"
+    "revision": "3b9986a9fa5cf2a630c3",
+    "url": "/my-portfolio/static/js/main.cc2eb382.chunk.js"
   },
   {
     "revision": "f2d15970f74596a69ca7",
     "url": "/my-portfolio/static/js/runtime~main.674e5ed7.js"
   },
   {
-    "revision": "e27f18713febcec14b19",
+    "revision": "de4c50971f373cb8de89",
     "url": "/my-portfolio/static/css/2.ceb28379.chunk.css"
   },
   {
-    "revision": "e27f18713febcec14b19",
-    "url": "/my-portfolio/static/js/2.d4295790.chunk.js"
+    "revision": "de4c50971f373cb8de89",
+    "url": "/my-portfolio/static/js/2.71c80a1f.chunk.js"
   },
   {
     "revision": "bf56edc6c7090e92662e37a9b9ed2aea",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/SEGA.12a3db8b.woff"
   },
   {
-    "revision": "04c3704472d27d7efbf7a5defc8397db",
+    "revision": "2af8b5da8f919ae2bff0edb7710e7dff",
     "url": "/my-portfolio/index.html"
   }
 ];
