@@ -23,6 +23,9 @@ class Header extends Component {
         <h3 style={style}>
           <Link to="/musicaly">Musicaly</Link>
         </h3>
+        <h3 style={style}>
+          <Link to="/robots">Musicaly</Link>
+        </h3>
       </div>
     );
   }
