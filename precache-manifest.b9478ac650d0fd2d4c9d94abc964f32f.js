@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "77c1e9772d1deffac300",
-    "url": "/my-portfolio/static/css/main.8da09dc5.chunk.css"
+    "revision": "f5a7e93e3f8eb12df2a1",
+    "url": "/my-portfolio/static/css/main.4fa3ce68.chunk.css"
   },
   {
-    "revision": "77c1e9772d1deffac300",
-    "url": "/my-portfolio/static/js/main.65f00f3c.chunk.js"
+    "revision": "f5a7e93e3f8eb12df2a1",
+    "url": "/my-portfolio/static/js/main.63826665.chunk.js"
   },
   {
     "revision": "f2d15970f74596a69ca7",
     "url": "/my-portfolio/static/js/runtime~main.674e5ed7.js"
   },
   {
-    "revision": "beb6c51ce30e907d4f5b",
-    "url": "/my-portfolio/static/js/2.b0bc1a4e.chunk.js"
+    "revision": "e27f18713febcec14b19",
+    "url": "/my-portfolio/static/css/2.ceb28379.chunk.css"
+  },
+  {
+    "revision": "e27f18713febcec14b19",
+    "url": "/my-portfolio/static/js/2.d4295790.chunk.js"
   },
   {
     "revision": "bf56edc6c7090e92662e37a9b9ed2aea",
@@ -56,7 +60,11 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/roboto-condensed.light.cf4449c1.ttf"
   },
   {
-    "revision": "78f71e3933cdb8f7a01aedfc7e062851",
+    "revision": "12a3db8ba7f5423327bb12aed3c41977",
+    "url": "/my-portfolio/static/media/SEGA.12a3db8b.woff"
+  },
+  {
+    "revision": "07a05472c2800e849c6d2a36acfd93f8",
     "url": "/my-portfolio/index.html"
   }
 ];
