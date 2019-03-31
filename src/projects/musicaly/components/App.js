@@ -6,8 +6,7 @@ import Header from "./Header";
 
 const URL_ADDRESS = "https://spotify-api-wrapper.appspot.com";
 const DEFAULT_ARTIST = "Coldplay";
-const Background =
-  "http://wallpoper.com/images/00/24/09/32/abstract-music_00240932.jpg";
+
 class App extends Component {
   state = { artistData: null, topTracks: [], Notloaded: true };
 
@@ -44,15 +43,7 @@ class App extends Component {
     const { artistData, topTracks, Notloaded } = this.state;
 
     return (
-      <div
-        style={{
-          backgroundImage: `url(${
-            Notloaded ? Background : artistData.images[0].url
-          })`,
-          backgroundSize: "cover",
-          overflow: "hidden"
-        }}
-      >
+      <div>
         <Header />
         <h1>Musicaly</h1>
         <Search searchArtist={this.searchArtist} />

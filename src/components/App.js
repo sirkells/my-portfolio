@@ -45,7 +45,7 @@ class App extends Component {
             </button>
           </div>
         )}
-        <hr />
+        <br />
         <Projects />
         <hr />
         <SocialProfiles />
