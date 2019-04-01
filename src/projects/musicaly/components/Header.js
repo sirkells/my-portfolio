@@ -26,6 +26,9 @@ class Header extends Component {
               Musicaly
             </Link>
             <Link className="link dim white dib mr3 fw6" to="/robots">
+              Faces
+            </Link>
+            <Link className="link dim white dib mr3 fw6" to="/robots">
               Robots
             </Link>
           </nav>

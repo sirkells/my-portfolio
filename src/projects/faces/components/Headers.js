@@ -1,15 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
-
 // the Header takes a child component as a prop
 // the component is placed in between the tags wherever the header component is used
-
-const style = {
-  display: "inline-block",
-  margin: 10,
-  marginBottom: 30
-};
 
 class Header extends Component {
   render() {
@@ -26,7 +19,7 @@ class Header extends Component {
             <Link className="link dim white dib mr3 fw6" to="/musicaly">
               Musicaly
             </Link>
-            <Link className="link dim white dib mr3 fw6" to="/faces">
+            <Link className="link dim white dib mr3 fw6" to="/robots">
               Faces
             </Link>
             <Link className="link dim white dib mr3 fw6" to="/robots">

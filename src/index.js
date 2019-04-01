@@ -9,6 +9,7 @@ import "./index.css";
 import App from "./components/App";
 import Musicaly from "./projects/musicaly";
 import Robots from "./projects/robot-pals";
+import Faces from "./projects/faces";
 import * as serviceWorker from "./components/serviceWorker";
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route exact path="/" component={App} />
       <Route path="/jokes" component={Jokes} />
       <Route path="/musicaly" component={Musicaly} />
+      <Route path="/faces" component={Faces} />
       <Route path="/robots" component={Robots} />
     </Switch>
   </HashRouter>,
